@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+* {
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Kanit', sans-serif;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.logoHeader {
+    width: 30px;
+    height: 30px;
+}
+
+   
+   .header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    transition: background-color 0.4s;
+    padding: 0rem;
+    padding-top: 20px;
+}
+
+.navbar a {
+    color: #FFFFFF;
+    padding-bottom: 20px;
+    margin-left: 10px;
+    font-size: 25px
+}
+
+.navbar-brand {
+    margin-left: 60px;
+
+}
+
+.navbar-toggler {
+    margin-right: 20px;
+}
+
+.navbar-nav {
+    margin-right: 8px;
+}
+
+#Quienes-somos {
+    margin-top: 50px;
+}
+
+#Destacados {
+    margin-top: 50px;
+}
+
+.card-img-top {
+    max-height: 150px;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 15px;
+    margin: 0;
+    background-color: #3bb312;
+    color: #FFFFFF;
+}
+
+.card-text {
+    margin-bottom: 50px;
+    padding-bottom: 10px;
+}
+
+#Contacto {
+    margin-top: 50px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+textarea {
+    height: 200px;
+}
+
+.btn {
+    margin-top: 3px;
+}
+
+button {
+    margin-bottom: 25px;
+}
+
+button.btn.btn-primary {
+    background-color: #3bb312;
+    color: #ffffff;
+}
+
+footer {
+    background-color: #3bb312;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+footer h5 {
+    padding-left: 4px;
+    order: -1;
+    margin-bottom: 10px;
+}
+
+@media (min-width: 768px) {
+    
+    footer .container .ms-auto {
+        margin-left: auto;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+    #Redes-Sociales {
+        margin-left: 300px;
+    }
+}
+
+@media (min-width: 761px) and (max-width: 1023px) {
+    #Redes-Sociales {
+        margin-left: 110%;
+    }
+}
+
+.icono-github {
+    color: white;
+    font-size: 30px
+}
+
+.icono-linkedin {
+    color: green;
+    font-size: 30px
+}
+
+.icono-X {
+    color: yellow;
+    font-size: 30px
+}
+
+.icono-facebook {
+    color: red;
+    font-size: 30px
+}
+
+.ms-auto {
+    padding-right: 150px;
+}
+
+.ms-auto i {
+    margin: 0 5px;
+}
+
+.tooltip .tooltip-inner {
+    background-color: #3bb312;   
+    color: #ffffff;
+  
+}
+
+.tooltip .arrow::before {
+    border-top-color: #3bb312;
+    }
+
+@media screen and (max-width: 760px) {
+
+
+    .logo,
+    .titulo,
+    .menu {
+        margin: 10px;
+    }
+
+ 
+
+
+    .footer {
+        height: auto;
+    }
+
+    #Redes-Sociales {
+        display: flex;
+        justify-content: center;
+        width: 140%;
+        flex-wrap: wrap;
+        padding-left: 20px;
+        margin-left: 33px;
+    }
+}
+
+
