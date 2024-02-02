@@ -72,7 +72,7 @@ body {
 }
 
 .card-body {
-    padding: 15px;
+    padding: 20px;
     margin: 0;
     background-color: #3bb312;
     color: #FFFFFF;
@@ -96,7 +96,7 @@ textarea {
 }
 
 .btn {
-    margin-top: 3px;
+    margin-top: 5px;
 }
 
 button {
