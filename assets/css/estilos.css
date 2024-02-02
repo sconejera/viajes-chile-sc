@@ -1,33 +1,37 @@
+/* Importa la fuente 'Rubik' desde Google Fonts y la aplica a todo el documento */
 @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 
+/* Estilos globales para resetear márgenes, bordes y rellenos */
 * {
     padding: 0;
     border: 0;
     margin: 0;
 }
 
+/* Establece la altura del html y el body al 100% */
 html,
 body {
     height: 100%;
 }
 
+/* Estilos generales para el body */
 body {
     font-family: 'Rubik', sans-serif;
     background-color: #000000;
     color: #ffffff;
 }
 
+/* Estilos para el logotipo en el encabezado */
 .logoHeader {
     width: 30px;
     height: 30px;
 }
-
-   
-   .header {
+.header {
     display: flex;
     justify-content: space-between;
 }
 
+/* Estilos para la barra de navegación */
 .navbar {
     position: fixed;
     top: 0;
@@ -37,56 +41,54 @@ body {
     padding: 0rem;
     padding-top: 20px;
 }
-
 .navbar a {
     color: #FFFFFF;
     padding-bottom: 15px;
     margin-left: 5px;
     font-size: 25px
 }
-
 .navbar-brand {
     margin-left: 60px;
-
 }
-
 .navbar-toggler {
     margin-right: 20px;
 }
-
 .navbar-nav {
     margin-right: 8px;
 }
 
+/* Estilos para la sección 'Quienes-somos' */
 #Quienes-somos {
     margin-top: 50px;
 }
 
+/* Estilos para la sección 'Destacados' */
 #Destacados {
     margin-top: 50px;
 }
 
+/* Estilos para las tarjetas */
 .card-img-top {
     max-height: 150px;
     object-fit: cover;
 }
-
 .card-body {
     padding: 20px;
     margin: 0;
     background-color: #3bb312;
     color: #FFFFFF;
 }
-
 .card-text {
     margin-bottom: 50px;
     padding-bottom: 10px;
 }
 
+/* Estilos para la sección 'Contacto' */
 #Contacto {
     margin-top: 50px;
 }
 
+/*Estilos para el formulario*/
 .form-group {
     margin-bottom: 15px;
 }
@@ -108,6 +110,7 @@ button.btn.btn-primary {
     color: #ffffff;
 }
 
+/* Estilos para el pie de página */
 footer {
     background-color: #3bb312;
     display: flex;
@@ -115,20 +118,22 @@ footer {
     align-items: center;
     padding: 0.5rem;
 }
-
 footer h5 {
     padding-left: 4px;
     order: -1;
     margin-bottom: 10px;
+    font-size: 30px
 }
 
+/* Estilos de medios para pantallas mas grandes */
 @media (min-width: 768px) {
-    
+
     footer .container .ms-auto {
         margin-left: auto;
     }
 }
 
+/* Estilos de medios para pantallas grandes */
 @media screen and (min-width: 1024px) {
 
     #Redes-Sociales {
@@ -136,12 +141,14 @@ footer h5 {
     }
 }
 
+/* Estilos de medios para pantallas medianas */
 @media (min-width: 761px) and (max-width: 1023px) {
     #Redes-Sociales {
         margin-left: 110%;
     }
 }
 
+/* Estilos para los iconos de redes sociales */
 .icono-github {
     color: white;
     font-size: 30px
@@ -170,27 +177,24 @@ footer h5 {
     margin: 0 5px;
 }
 
+/* Estilos para los tooltips */
 .tooltip .tooltip-inner {
-    background-color: #3bb312;   
+    background-color: #3bb312;
     color: #ffffff;
-  
+
 }
 
 .tooltip .arrow::before {
     border-top-color: #3bb312;
-    }
+}
 
+/* Estilos de medios para pantallas pequeñas */
 @media screen and (max-width: 760px) {
-
-
     .logo,
     .titulo,
     .menu {
         margin: 10px;
     }
-
- 
-
 
     .footer {
         height: auto;
@@ -205,5 +209,3 @@ footer h5 {
         margin-left: 33px;
     }
 }
-
-
